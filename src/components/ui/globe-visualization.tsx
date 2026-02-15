@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import createGlobe from "cobe";
-import { useSpring } from "react-spring";
+
 
 export function GlobeVisualization() {
     const canvasRef = useRef<HTMLCanvasElement>(null);
