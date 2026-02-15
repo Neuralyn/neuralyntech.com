@@ -29,7 +29,7 @@ export function ImpactHero() {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed font-light"
                     >
-                        From AI-powered healthcare operations to intelligent automation and infrastructure engineering — we design systems that solve real operational problems.
+                        From AI-powered healthcare operations to intelligent automation and infrastructure engineering - we design systems that solve real operational problems.
                     </motion.p>
                 </div>
             </Container>

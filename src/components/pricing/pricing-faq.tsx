@@ -20,7 +20,7 @@ const faqs = [
     },
     {
         question: "How quickly can we start?",
-        answer: "Typically within 1–2 weeks after agreement. We maintain a focused client list to ensure quality."
+        answer: "Typically within 1-2 weeks after agreement. We maintain a focused client list to ensure quality."
     },
     {
         question: "Do you sign NDAs?",

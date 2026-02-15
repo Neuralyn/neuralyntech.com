@@ -19,7 +19,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
     title: "Neuralyn Tech | AI Infrastructure & Automation",
-    description: "We engineer AI-powered systems—automation, internal copilots, and modern web infrastructure—so businesses run faster, smarter, and more securely.",
+    description: "We engineer AI-powered systems - automation, internal copilots, and modern web infrastructure - so businesses run faster, smarter, and more securely.",
 };
 
 export default function RootLayout({

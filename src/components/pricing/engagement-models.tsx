@@ -12,10 +12,10 @@ const tiers = [
         name: "Automation Sprint",
         description: "Best for small businesses & teams starting automation.",
         price: "Starting at $4,500",
-        timeline: "2–4 weeks",
+        timeline: "2-4 weeks",
         features: [
             "Process analysis",
-            "1–3 workflow automations",
+            "1-3 workflow automations",
             "Tool integrations",
             "Deployment & testing",
             "Basic documentation"
@@ -27,7 +27,7 @@ const tiers = [
         name: "AI Systems Build",
         description: "Best for growing companies building internal AI & infrastructure.",
         price: "Starting at $12,000",
-        timeline: "4–8 weeks",
+        timeline: "4-8 weeks",
         features: [
             "AI assistant development",
             "Data pipelines",
@@ -44,7 +44,7 @@ const tiers = [
         name: "Intelligent Infrastructure",
         description: "Best for organizations transforming operations.",
         price: "Starting at $30,000+",
-        timeline: "8–16 weeks",
+        timeline: "8-16 weeks",
         features: [
             "Full system audit",
             "Multi-layer automation",
@@ -89,8 +89,8 @@ export function EngagementModels() {
                         >
                             {tier.tag && (
                                 <div className={`absolute -top-4 left-1/2 -translate-x-1/2 text-xs font-bold px-4 py-1 rounded-full backdrop-blur-md uppercase tracking-wider ${tier.highlight
-                                        ? "bg-blue-500/20 border border-blue-500/30 text-blue-200"
-                                        : "bg-purple-500/20 border border-purple-500/30 text-purple-200"
+                                    ? "bg-blue-500/20 border border-blue-500/30 text-blue-200"
+                                    : "bg-purple-500/20 border border-purple-500/30 text-purple-200"
                                     }`}>
                                     {tier.tag}
                                 </div>

@@ -146,15 +146,15 @@ export function ContactForm() {
     ];
 
     const budgetOptions = [
-        "$3,000 – $10,000",
-        "$10,000 – $25,000",
-        "$25,000 – $50,000",
+        "$3,000 - $10,000",
+        "$10,000 - $25,000",
+        "$25,000 - $50,000",
         "$50,000+"
     ];
 
     const timelineOptions = [
-        "Immediate (0–1 month)",
-        "1–3 months",
+        "Immediate (0-1 month)",
+        "1-3 months",
         "3+ months"
     ];
 

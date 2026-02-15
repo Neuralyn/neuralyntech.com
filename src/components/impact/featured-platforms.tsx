@@ -13,7 +13,7 @@ const platforms = [
         url: "https://www.neuralyn.health/",
         category: "AI Healthcare Infrastructure",
         status: "Active Platform",
-        description: "An AI-driven healthcare support platform designed to improve patient coordination, streamline clinic operations, and enhance engagement — without performing medical diagnosis.",
+        description: "An AI-driven healthcare support platform designed to improve patient coordination, streamline clinic operations, and enhance engagement - without performing medical diagnosis.",
         color: "from-blue-500/20 to-cyan-500/20",
         capabilities: [
             { icon: Calendar, text: "AI Appointment Automation" },

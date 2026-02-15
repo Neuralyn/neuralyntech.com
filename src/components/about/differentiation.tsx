@@ -9,7 +9,7 @@ const differentiators = [
     {
         icon: Layers,
         title: "Engineering-First Approach",
-        description: "We design systems from architecture outward — not surface-level automation hacks."
+        description: "We design systems from architecture outward - not surface-level automation hacks."
     },
     {
         icon: Cpu,

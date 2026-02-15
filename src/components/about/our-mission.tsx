@@ -38,7 +38,7 @@ export function OurMission() {
                             className="pl-6 border-l-2 border-primary/50"
                         >
                             <p className="text-xl text-white/60 italic">
-                                "We believe modern businesses do not need more tools — they need better systems."
+                                "We believe modern businesses do not need more tools - they need better systems."
                             </p>
                         </motion.div>
                     </div>

@@ -13,7 +13,7 @@ export default function SecurityPage() {
                             Security & <span className="text-primary">Compliance</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed">
-                            We build systems that handle sensitive data. Security is not an afterthought—it's the foundation of our architecture.
+                            We build systems that handle sensitive data. Security is not an afterthought - it's the foundation of our architecture.
                         </p>
                     </div>
                 </Container>

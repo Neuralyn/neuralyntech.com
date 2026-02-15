@@ -24,7 +24,6 @@ export function SystemArchitecture() {
 
                     {/* Step 1: Ingest */}
                     <div className="relative group">
-                        <div className="absolute inset-0 bg-blue-500/10 blur-3xl opacity-20 group-hover:opacity-40 transition-opacity" />
                         <div className="relative bg-black border border-white/10 rounded-2xl p-8 hover:border-blue-500/50 transition-colors">
                             <div className="flex items-center gap-4 mb-6">
                                 <div className="p-3 bg-blue-500/20 rounded-lg text-blue-400">
@@ -56,7 +55,6 @@ export function SystemArchitecture() {
 
                     {/* Step 2: Process (The Core) */}
                     <div className="relative group scale-105">
-                        <div className="absolute inset-0 bg-white/10 blur-3xl opacity-20 group-hover:opacity-40 transition-opacity" />
                         <div className="relative bg-zinc-900 border border-white/20 rounded-2xl p-10 shadow-2xl">
                             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-zinc-800 border border-white/10 px-4 py-1 rounded-full text-xs font-mono text-zinc-400 uppercase tracking-widest">
                                 Processing
@@ -89,7 +87,6 @@ export function SystemArchitecture() {
 
                     {/* Step 3: Act */}
                     <div className="relative group">
-                        <div className="absolute inset-0 bg-green-500/10 blur-3xl opacity-20 group-hover:opacity-40 transition-opacity" />
                         <div className="relative bg-black border border-white/10 rounded-2xl p-8 hover:border-green-500/50 transition-colors">
                             <div className="flex items-center gap-4 mb-6">
                                 <div className="p-3 bg-green-500/20 rounded-lg text-green-400">
