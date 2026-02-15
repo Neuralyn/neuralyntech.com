@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { NexusPreview } from "@/components/impact/nexus-preview";
 import { Hero } from "@/components/ui/hero";
 import { Navbar } from "@/components/layout/navbar";
