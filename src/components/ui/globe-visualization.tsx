@@ -76,7 +76,7 @@ export function GlobeVisualization() {
         <div className="w-full h-full relative flex items-center justify-center">
             <canvas
                 ref={canvasRef}
-                style={{ width: '100%', height: '100%', maxWidth: "600px", maxHeight: "600px", aspectRatio: 1 }}
+                style={{ width: '100%', height: 'auto', maxWidth: "600px", aspectRatio: 1 }}
             />
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/50 backdrop-blur-md border border-white/10 px-4 py-1.5 rounded-full text-[10px] text-zinc-400 font-mono pointer-events-none whitespace-nowrap">
                 LIVE NEURAL MESH v2.0

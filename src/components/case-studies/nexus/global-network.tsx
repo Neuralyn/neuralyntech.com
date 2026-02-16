@@ -47,7 +47,7 @@ export function GlobalNetwork() {
                         </motion.div>
                     </div>
 
-                    <div className="relative h-[600px] bg-zinc-900/30 rounded-3xl border border-white/10 flex items-center justify-center overflow-hidden">
+                    <div className="relative h-[400px] md:h-[600px] bg-zinc-900/30 rounded-3xl border border-white/10 flex items-center justify-center overflow-hidden">
                         <GlobeVisualization />
                     </div>
                 </div>
