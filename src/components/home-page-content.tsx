@@ -21,7 +21,7 @@ export function HomePageContent() {
             {/* Selected Work Section */}
             <section className="px-4 md:px-12 py-24 relative z-10">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-end gap-8 mb-16 w-full">
-                    <h2 className="text-5xl md:text-[8vw] leading-[0.9] md:leading-[0.8] font-bold font-heading uppercase">
+                    <h2 className="text-4xl md:text-[8vw] leading-[0.9] md:leading-[0.8] font-bold font-heading uppercase">
                         Selected <br /> Work
                     </h2>
                     <div className="md:ml-auto md:text-right max-w-xs">

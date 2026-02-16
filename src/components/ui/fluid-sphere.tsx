@@ -45,7 +45,7 @@ function FloatingInterface() {
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
-                className="absolute top-[15%] left-0 md:top-[20%] md:left-[-15%] pointer-events-auto"
+                className="absolute top-[18%] left-[5%] md:top-[20%] md:left-[-15%] pointer-events-auto"
             >
                 <motion2d.div
                     animate={{ y: [0, -10, 0] }}
@@ -64,7 +64,7 @@ function FloatingInterface() {
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
-                className="absolute top-[65%] left-[5%] md:top-[70%] md:left-[-15%] pointer-events-auto"
+                className="absolute top-[70%] left-[8%] md:top-[70%] md:left-[-15%] pointer-events-auto"
             >
                 <motion2d.div
                     animate={{ y: [0, -12, 0] }}
@@ -83,7 +83,7 @@ function FloatingInterface() {
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.9 }}
-                className="absolute top-[40%] left-[-2%] md:top-[45%] md:left-[-5%] pointer-events-auto"
+                className="absolute top-[45%] left-[2%] md:top-[45%] md:left-[-5%] pointer-events-auto"
             >
                 <motion2d.div
                     animate={{ y: [0, -9, 0] }}
@@ -102,7 +102,7 @@ function FloatingInterface() {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
-                className="absolute top-[10%] right-[-5%] md:right-[-5%] pointer-events-auto"
+                className="absolute top-[12%] right-[2%] md:top-[10%] md:right-[-5%] pointer-events-auto"
             >
                 <motion2d.div
                     animate={{ y: [0, -11, 0] }}
@@ -121,7 +121,7 @@ function FloatingInterface() {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
-                className="absolute top-[35%] right-[-15%] md:right-[-20%] pointer-events-auto"
+                className="absolute top-[38%] right-[5%] md:top-[35%] md:right-[-20%] pointer-events-auto"
             >
                 <motion2d.div
                     animate={{ y: [0, -13, 0] }}
@@ -140,7 +140,7 @@ function FloatingInterface() {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 1.0 }}
-                className="absolute top-[60%] right-[-5%] md:right-[-10%] pointer-events-auto"
+                className="absolute top-[62%] right-[2%] md:top-[60%] md:right-[-10%] pointer-events-auto"
             >
                 <motion2d.div
                     animate={{ y: [0, -9, 0] }}
@@ -159,7 +159,7 @@ function FloatingInterface() {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 1.0 }}
-                className="absolute top-[85%] right-0 md:right-[-10%] pointer-events-auto"
+                className="absolute top-[88%] right-0 md:top-[85%] md:right-[-10%] pointer-events-auto"
             >
                 <motion2d.div
                     animate={{ y: [0, -9, 0] }}

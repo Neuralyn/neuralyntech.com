@@ -53,7 +53,7 @@ export function NexusPreview() {
             style={{ scale, opacity }}
             className="w-full max-w-6xl mx-auto"
         >
-            <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 gap-4 md:gap-6 aspect-[4/5] md:aspect-[16/12]">
+            <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 gap-4 md:gap-6 aspect-[4/7] md:aspect-[16/12]">
 
                 {/* 1. Main Feature - Nexus Intelligence */}
                 <motion.div
