@@ -230,7 +230,7 @@ export function NexusPreview() {
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2, margin: "0px" }}
                     variants={cardVariants}
-                    className="col-span-1 row-span-1 bg-zinc-900/80 backdrop-blur-sm rounded-[2rem] border border-white/10 flex flex-col justify-between relative overflow-hidden group/card-assistants hover:border-purple-500/30 transition-colors duration-500 h-full"
+                    className="col-span-1 row-span-1 min-h-[140px] bg-zinc-900/80 backdrop-blur-sm rounded-[2rem] border border-white/10 flex flex-col justify-between relative overflow-hidden group/card-assistants hover:border-purple-500/30 transition-colors duration-500 h-full"
                 >
                     <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col justify-between"}>
                         <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-pink-500/10 opacity-30 group-hover/card-assistants:opacity-100 transition-opacity duration-500" />
@@ -254,7 +254,7 @@ export function NexusPreview() {
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2, margin: "0px" }}
                     variants={cardVariants}
-                    className="col-span-1 row-span-1 bg-zinc-900/80 backdrop-blur-sm rounded-[2rem] border border-white/10 flex flex-col justify-between relative overflow-hidden group/card-pipelines hover:border-amber-500/30 transition-colors duration-500 h-full"
+                    className="col-span-1 row-span-1 min-h-[140px] bg-zinc-900/80 backdrop-blur-sm rounded-[2rem] border border-white/10 flex flex-col justify-between relative overflow-hidden group/card-pipelines hover:border-amber-500/30 transition-colors duration-500 h-full"
                 >
                     <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col justify-between"}>
                         <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-500/10 opacity-30 group-hover/card-pipelines:opacity-100 transition-opacity duration-500" />
@@ -278,7 +278,7 @@ export function NexusPreview() {
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2, margin: "0px" }}
                     variants={cardVariants}
-                    className="col-span-1 row-span-1 bg-zinc-900/80 backdrop-blur-sm rounded-[2rem] border border-white/10 flex flex-col justify-between relative overflow-hidden group/card-cloud hover:border-blue-500/30 transition-colors duration-500 h-full"
+                    className="col-span-1 row-span-1 min-h-[140px] bg-zinc-900/80 backdrop-blur-sm rounded-[2rem] border border-white/10 flex flex-col justify-between relative overflow-hidden group/card-cloud hover:border-blue-500/30 transition-colors duration-500 h-full"
                 >
                     <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col justify-between"}>
                         <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/20 to-blue-500/10 opacity-30 group-hover/card-cloud:opacity-100 transition-opacity duration-500" />
@@ -302,7 +302,7 @@ export function NexusPreview() {
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2, margin: "0px" }}
                     variants={cardVariants}
-                    className="col-span-1 row-span-1 bg-zinc-900/80 backdrop-blur-sm rounded-[2rem] border border-white/10 flex flex-col justify-between relative overflow-hidden group/card-integration hover:border-rose-500/30 transition-colors duration-500 h-full"
+                    className="col-span-1 row-span-1 min-h-[140px] bg-zinc-900/80 backdrop-blur-sm rounded-[2rem] border border-white/10 flex flex-col justify-between relative overflow-hidden group/card-integration hover:border-rose-500/30 transition-colors duration-500 h-full"
                 >
                     <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col justify-between"}>
                         <div className="absolute inset-0 bg-gradient-to-br from-rose-500/20 to-red-500/10 opacity-30 group-hover/card-integration:opacity-100 transition-opacity duration-500" />
