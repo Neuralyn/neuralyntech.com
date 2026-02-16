@@ -55,6 +55,7 @@ function CustomSelect({
                         exit={{ opacity: 0, y: -10, scale: 0.95 }}
                         transition={{ duration: 0.2 }}
                         className="absolute z-50 top-full left-0 right-0 mt-2 rounded-xl border border-white/10 bg-zinc-950 shadow-2xl overflow-hidden max-h-60 overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-white/10 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-white/20"
+                        data-lenis-prevent
                     >
                         {options.map((option) => (
                             <div

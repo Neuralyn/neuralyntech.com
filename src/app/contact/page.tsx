@@ -17,7 +17,6 @@ export default function ContactPage() {
             <ContactForm />
             <DirectContact />
             <ProcessTimeline />
-            <CalendarSection />
         </main>
     );
 }

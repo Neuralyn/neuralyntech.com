@@ -24,7 +24,7 @@ export function Navbar() {
                             <img
                                 src="/logo.svg"
                                 alt="Neuralyn Tech Logo"
-                                className="w-full h-full object-contain dark:invert-0 invert"
+                                className="w-full h-full object-contain"
                             />
                         </div>
                         {/* Wordmark - Visible on all screens now */}
