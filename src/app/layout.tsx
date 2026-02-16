@@ -20,6 +20,20 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
     title: "Neuralyn Tech | AI Infrastructure & Automation",
     description: "We engineer AI-powered systems - automation, internal copilots, and modern web infrastructure - so businesses run faster, smarter, and more securely.",
+    metadataBase: new URL("https://www.neuralyntech.com"),
+    openGraph: {
+        title: "Neuralyn Tech | AI Infrastructure & Automation",
+        description: "We engineer AI-powered systems - automation, internal copilots, and modern web infrastructure.",
+        url: "https://www.neuralyntech.com",
+        siteName: "Neuralyn Tech",
+        locale: "en_US",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Neuralyn Tech | AI Infrastructure & Automation",
+        description: "We engineer AI-powered systems - automation, internal copilots, and modern web infrastructure.",
+    },
 };
 
 export default function RootLayout({
