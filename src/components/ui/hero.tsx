@@ -120,7 +120,7 @@ export function Hero() {
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
-                    className="flex-1 flex justify-end relative z-10 w-full translate-x-12"
+                    className="flex-1 flex justify-center lg:justify-end relative z-10 w-full lg:translate-x-12"
                 >
                     <div className="relative w-full flex justify-center lg:justify-end scale-90 lg:scale-100 origin-center lg:origin-right">
                         <FluidSphere />

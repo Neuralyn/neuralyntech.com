@@ -53,7 +53,7 @@ export function NexusPreview() {
             style={{ scale, opacity }}
             className="w-full max-w-6xl mx-auto"
         >
-            <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 gap-4 md:gap-6 aspect-[4/7] md:aspect-[16/12]">
+            <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 gap-4 md:gap-6 md:aspect-[16/12]">
 
                 {/* 1. Main Feature - Nexus Intelligence */}
                 <motion.div
@@ -140,7 +140,7 @@ export function NexusPreview() {
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2, margin: "0px" }}
                     variants={cardVariants}
-                    className="col-span-1 row-span-2 bg-black rounded-[2rem] border border-white/10 relative overflow-hidden flex flex-col items-center justify-center text-center group/card-neural hover:border-white/15 transition-colors duration-500"
+                    className="col-span-2 md:col-span-1 row-span-2 bg-black rounded-[2rem] border border-white/10 relative overflow-hidden flex flex-col items-center justify-center text-center group/card-neural hover:border-white/15 transition-colors duration-500"
                 >
                     <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col items-center justify-center"}>
                         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/10 via-transparent to-transparent opacity-0 group-hover/card-neural:opacity-100 duration-700 transition-opacity" />
@@ -162,7 +162,7 @@ export function NexusPreview() {
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2, margin: "0px" }}
                     variants={cardVariants}
-                    className="col-span-1 row-span-1 bg-zinc-900 rounded-[2rem] border border-white/10 flex flex-col justify-center items-center text-center group/card-throughput hover:border-white/15 transition-colors duration-500"
+                    className="col-span-2 md:col-span-1 row-span-1 bg-zinc-900 rounded-[2rem] border border-white/10 flex flex-col justify-center items-center text-center group/card-throughput hover:border-white/15 transition-colors duration-500"
                 >
                     <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col justify-center items-center"}>
                         <h3 className="text-[9px] md:text-sm font-bold text-blue-300 uppercase tracking-widest mb-1">Throughput</h3>
