@@ -45,10 +45,10 @@ export function HomePageContent() {
                                 <h3 className="text-4xl font-bold font-heading mb-2">Nexus AI</h3>
                                 <p className="text-neutral-400">Interface Design / Development</p>
                             </div>
-                            <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                            <div className="opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500">
                                 <MagneticButton>
                                     <Link href="/case-studies/nexus-ai">
-                                        <span className="w-24 h-24 rounded-full bg-white text-black flex items-center justify-center font-bold text-sm uppercase">
+                                        <span className="w-16 h-16 md:w-24 md:h-24 rounded-full bg-white text-black flex items-center justify-center font-bold text-[10px] md:text-sm uppercase whitespace-nowrap">
                                             View Case
                                         </span>
                                     </Link>
