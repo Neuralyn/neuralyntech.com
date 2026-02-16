@@ -22,6 +22,7 @@ export function Footer() {
                     <div className="flex gap-4">
                         <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
                         <a href="#" className="hover:text-foreground transition-colors">Terms</a>
+                        <span className="text-white/20 ml-4">v1.1.0</span>
                     </div>
                 </div>
             </Container>
