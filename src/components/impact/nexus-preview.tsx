@@ -69,12 +69,12 @@ export function NexusPreview() {
                         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-blue-500/10 to-transparent opacity-50 group-hover/card-nexus:opacity-100 transition-opacity duration-700" />
                         <div className="relative z-10 flex flex-col h-full justify-between">
                             <div className="space-y-2">
-                                <h3 className="text-3xl md:text-5xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-200 to-white">
+                                <h3 className="text-2xl md:text-3xl lg:text-5xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-200 to-white">
                                     Nexus Intelligence
                                 </h3>
-                                <p className="text-zinc-400 font-medium">Predictive Operations Model</p>
+                                <p className="text-sm md:text-base text-zinc-400 font-medium">Predictive Operations Model</p>
                             </div>
-                            <div className="w-full h-32 md:h-48 flex items-end gap-1">
+                            <div className="w-full h-24 md:h-32 lg:h-48 flex items-end gap-1">
                                 {[40, 70, 50, 90, 60, 80, 95, 85, 65, 75, 55, 80, 90, 60, 100].map((h, i) => (
                                     <div
                                         key={i}
@@ -97,13 +97,13 @@ export function NexusPreview() {
                     variants={cardVariants}
                     className="col-span-1 row-span-1 h-full bg-zinc-900 rounded-[2rem] border border-white/10 flex flex-col justify-center items-center text-center relative overflow-hidden group/card-latency hover:border-white/15 transition-colors duration-500"
                 >
-                    <div className={cardHoverClass + " relative p-6 flex flex-col justify-center items-center"}>
+                    <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col justify-center items-center"}>
                         <div
                             className="absolute top-0 right-0 w-24 h-24 bg-green-500/20 rounded-full blur-2xl -mr-10 -mt-10 group-hover/card-latency:scale-110 group-hover/card-latency:opacity-40 transition-transform duration-500"
                         />
-                        <Zap className="w-10 h-10 text-green-400 mb-2" />
-                        <div className="text-4xl md:text-5xl font-bold text-white tracking-tighter">0.4ms</div>
-                        <div className="text-xs text-zinc-500 font-bold uppercase tracking-wider mt-1">Latency</div>
+                        <Zap className="w-8 h-8 md:w-10 md:h-10 text-green-400 mb-2" />
+                        <div className="text-2xl md:text-4xl lg:text-5xl font-bold text-white tracking-tighter">0.4ms</div>
+                        <div className="text-[10px] md:text-xs text-zinc-500 font-bold uppercase tracking-wider mt-1">Latency</div>
                     </div>
                 </motion.div>
 
@@ -117,17 +117,17 @@ export function NexusPreview() {
                     variants={cardVariants}
                     className="col-span-1 row-span-1 bg-zinc-900 rounded-[2rem] border border-white/10 flex flex-col justify-between relative overflow-hidden group/card-encrypted hover:border-white/15 transition-colors duration-500 h-full"
                 >
-                    <div className={cardHoverClass + " relative p-6 flex flex-col justify-between"}>
+                    <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col justify-between"}>
                         <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-transparent opacity-0 group-hover/card-encrypted:opacity-100 transition-opacity duration-500" />
-                        <div className="flex justify-between items-start relative z-10">
-                            <Lock className="w-8 h-8 text-indigo-400" />
-                            <span className="px-2 py-1 rounded bg-indigo-500/20 text-indigo-300 text-[10px] font-bold">
+                        <div className="flex flex-col md:flex-row justify-between items-start relative z-10 gap-2 md:gap-0">
+                            <Lock className="w-6 h-6 md:w-8 md:h-8 text-indigo-400" />
+                            <span className="px-2 py-1 rounded bg-indigo-500/20 text-indigo-300 text-[8px] md:text-[10px] font-bold whitespace-nowrap">
                                 L4 SECURITY
                             </span>
                         </div>
-                        <div className="relative z-10">
-                            <div className="text-xl font-bold text-white mb-1">Encrypted</div>
-                            <div className="text-xs text-zinc-400">End-to-End Protection</div>
+                        <div className="relative z-10 mt-2">
+                            <div className="text-sm md:text-xl font-bold text-white mb-1">Encrypted</div>
+                            <div className="text-[10px] md:text-xs text-zinc-400">End-to-End</div>
                         </div>
                     </div>
                 </motion.div>
@@ -142,15 +142,15 @@ export function NexusPreview() {
                     variants={cardVariants}
                     className="col-span-1 row-span-2 bg-black rounded-[2rem] border border-white/10 relative overflow-hidden flex flex-col items-center justify-center text-center group/card-neural hover:border-white/15 transition-colors duration-500"
                 >
-                    <div className={cardHoverClass + " relative p-6 flex flex-col items-center justify-center"}>
+                    <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col items-center justify-center"}>
                         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/10 via-transparent to-transparent opacity-0 group-hover/card-neural:opacity-100 duration-700 transition-opacity" />
-                        <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white/5 flex items-center justify-center relative">
+                        <div className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 rounded-full border-4 border-white/5 flex items-center justify-center relative">
                             <div className="absolute inset-0 rounded-full border-t-4 border-l-4 border-blue-500 animate-[spin_3s_linear_infinite]" />
                             <div className="absolute inset-4 rounded-full border-b-4 border-r-4 border-violet-500 animate-[spin_4s_linear_infinite_reverse]" />
-                            <Cpu className="w-12 h-12 text-white/80" />
+                            <Cpu className="w-8 h-8 md:w-12 md:h-12 text-white/80" />
                         </div>
-                        <h4 className="mt-6 text-xl font-bold text-white">Neural Core</h4>
-                        <p className="text-xs text-zinc-500 mt-1">Self-Optimizing</p>
+                        <h4 className="mt-4 md:mt-6 text-base md:text-xl font-bold text-white">Neural Core</h4>
+                        <p className="text-[10px] md:text-xs text-zinc-500 mt-1">Self-Optimizing</p>
                     </div>
                 </motion.div>
 
@@ -164,12 +164,12 @@ export function NexusPreview() {
                     variants={cardVariants}
                     className="col-span-1 row-span-1 bg-zinc-900 rounded-[2rem] border border-white/10 flex flex-col justify-center items-center text-center group/card-throughput hover:border-white/15 transition-colors duration-500"
                 >
-                    <div className={cardHoverClass + " relative p-6 flex flex-col justify-center items-center"}>
-                        <h3 className="text-sm font-bold text-blue-300 uppercase tracking-widest mb-1">Throughput</h3>
-                        <div className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-white">
+                    <div className={cardHoverClass + " relative p-4 md:p-6 flex flex-col justify-center items-center"}>
+                        <h3 className="text-[10px] md:text-sm font-bold text-blue-300 uppercase tracking-widest mb-1">Throughput</h3>
+                        <div className="text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-white">
                             10TB+
                         </div>
-                        <p className="text-xs text-zinc-500 mt-1">Daily Processing</p>
+                        <p className="text-[10px] md:text-xs text-zinc-500 mt-1">Daily Processing</p>
                     </div>
                 </motion.div>
 
