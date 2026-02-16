@@ -3,7 +3,7 @@ import { ContactHero } from "@/components/contact/contact-hero";
 import { ContactForm } from "@/components/contact/contact-form";
 import { DirectContact } from "@/components/contact/direct-contact";
 import { ProcessTimeline } from "@/components/contact/process-timeline";
-import { CalendarSection } from "@/components/contact/calendar-section";
+
 
 export const metadata: Metadata = {
     title: "Contact | Neuralyn Tech",
